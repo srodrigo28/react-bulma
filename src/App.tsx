@@ -1,10 +1,13 @@
+import { AppRouter } from "./services/routes"
 
 function App() {
 
   return (
-    <>
-      <button className="button is-dark">Button Dark</button>
-    </>
+    <div className="app">
+        <section className="main-content columns is-fullheight">
+          <AppRouter />
+        </section>
+    </div>
   )
 }
 
