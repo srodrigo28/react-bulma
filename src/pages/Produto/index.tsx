@@ -13,7 +13,6 @@ export function Produto() {
         }
         console.log(produto)
     }
-
     return (
         <div className="container column is-12 mt-2">
             <div className="card p-4">

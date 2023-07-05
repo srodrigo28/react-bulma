@@ -6,7 +6,7 @@ export function Menu() {
             <ul className="menu-list">
                 <MenuItem href="/produto" label="Produtos" />
                 <MenuItem href="/cliente" label="Clientes" />
-                <MenuItem href="/" label="Config" />
+                <MenuItem href="/servicos" label="Serviços" />
                 <MenuItem href="/" label="Sair" />
             </ul>
         </aside>
